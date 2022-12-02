@@ -22,12 +22,10 @@ sphinx-autobuild = "*"
 hyperopt = "*"
 scikit-learn = "*"
 build = "*"
+pipfile = "*"
+e1839a8 = {path = ".", editable = true}
 
 [dev-packages]
 
 [requires]
 python_version = "3.8"
-
-[packages.e1839a8]
-path = "."
-editable = true
